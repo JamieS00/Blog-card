@@ -1,16 +1,31 @@
 body {
   background-color: #f4d04e;
+  padding: 20%;
+}
+.container:hover {
+  box-shadow: 12px 12px black;
+  transition: ease-in 0.2s;
+}
+.container:hover h3 {
+  color: #f4d04e;
+  cursor: pointer;
+  transition: ease-in 0s;
 }
 .container {
+  box-shadow: 5px 5px black;
   background-color: white;
   border: 2px black solid;
-  border-radius: 8px;
-  margin: auto 0;
+  border-radius: 9px;
+  margin: auto;
   padding: 16px;
-  max-width: 350px;
+  max-width: 340px;
+}
+.container img {
+  border-radius: 8px;
 }
 .learn-btn {
   background-color: #f4d04e;
+  text-align: center;
 }
 p.date {
   color: #111111;
@@ -21,10 +36,11 @@ h3 {
   font-size: 24px;
   line-height: 1.5;
 }
-h3:hover {
+/* h3:hover {
+  font-size: 24px;
   color: #f4d04e;
   cursor: pointer;
-}
+} */
 p {
   color: #6b6b6b;
 }
