@@ -18,16 +18,21 @@ body {
   border-radius: 9px;
   margin: auto;
   padding: 16px;
-  max-width: 340px;
+  max-width: 400px;
 }
-.container img {
+.container .main-img {
   border-radius: 8px;
+  display: block;
+  margin: 0 auto;
 }
 .learn-btn {
+  display: inline-block; /*able to resize the btn*/
+  padding: 2px 10px;
   background-color: #f4d04e;
   text-align: center;
   font-weight: bold;
   font-family: "Figtree";
+  border-radius: 4px;
 }
 p.date {
   color: #111111;
@@ -57,6 +62,10 @@ p {
   font-family: "Figtree";
   font-weight: bold;
 }
+.greg img {
+  margin-right: 8px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
