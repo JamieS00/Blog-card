@@ -1,15 +1,6 @@
 body {
   background-color: #f4d04e;
-  padding: 20%;
-}
-.container:hover {
-  box-shadow: 12px 12px black;
-  transition: ease-in 0.2s;
-}
-.container:hover h3 {
-  color: #f4d04e;
-  cursor: pointer;
-  transition: ease-in 0s;
+  padding: 10%;
 }
 .container {
   box-shadow: 5px 5px black;
@@ -20,6 +11,16 @@ body {
   padding: 16px;
   max-width: 400px;
 }
+.container:hover {
+  box-shadow: 12px 12px black;
+  transition: ease-in 0.2s;
+}
+.container:hover h3 {
+  color: #f4d04e;
+  cursor: pointer;
+  transition: ease-in 0s;
+}
+
 .container .main-img {
   border-radius: 8px;
   display: block;
