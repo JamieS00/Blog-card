@@ -1,8 +1,9 @@
 body {
   background-color: #f4d04e;
-  padding: 10%;
+  padding: 5%;
 }
 .container {
+  margin: 20px auto 0 auto; /* top | right/left auto | bottom */
   box-shadow: 5px 5px black;
   background-color: white;
   border: 2px black solid;
